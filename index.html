@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealTunes - Music for Mind & Body</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f6f9;
+      color: #333;
+    }
+    header {
+      background-color: #6a82fb;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #4a60d6;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem;
+      gap: 2rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 2rem;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: #4a60d6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .mood-btns button {
+      margin: 0.5rem;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background: #6a82fb;
+      color: white;
+      cursor: pointer;
+    }
+    iframe {
+      margin-top: 1rem;
+      border-radius: 10px;
+    }
+    .day-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .day-list li {
+      background: #fff;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-left: 5px solid #6a82fb;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>HealTunes</h1>
+    <p>Healing through sound – one note at a time</p>
+  </header>
+
+  <nav>
+    <a href="#conditions">Therapy by Condition</a>
+    <a href="#challenge">21-Day Healing Challenge</a>
+    <a href="#education">Health + Music Education</a>
+    <a href="#emergency">Emergency Relief</a>
+    <a href="#caregivers">Caregiver Resources</a>
+  </nav>
+
+  <section id="conditions">
+    <h2 class="section-title">🎧 Therapy by Health Condition</h2>
+    <div class="grid">
+      <div class="card">
+
+            
+
+        <h3>😌 Anxiety</h3>
+        <p>Soothing piano and ambient tracks can calm your nervous system. Try the 4-7-8 breathing while listening.</p>
+        <iframe width="100%" height="100" src="https://www.youtube.com/embed/2OEL4P1Rz04" title="Calming Music for Anxiety" frameborder="0" allowfullscreen></iframe>
+        <a href="./anxiety.html" class="btn btn-primary">Explore more</a>
+      </div>
+      <div class="card">
+        <h3>😴 Insomnia</h3>
+        <p>Rain sounds and white noise help you drift into deep sleep naturally. Avoid screens 30 mins before bed.</p>
+        <iframe width="100%" height="100" src="https://www.youtube.com/embed/ZYe1CThxCrA" title="Sleep Music" frameborder="0" allowfullscreen></iframe>
+        <a href="./insomnia.html" class="btn btn-primary">Explore more</a>
+      </div>
+      <div class="card">
+        <h3>🎯 ADHD</h3>
+        <p>Lo-fi music or binaural beats help improve focus. Use this while studying or working.</p>
+        <iframe width="100%" height="100" src="https://www.youtube.com/embed/1ZYbU82GVz4" title="Focus Music" frameborder="0" allowfullscreen></iframe>
+        <a href="./adhd.html" class="btn btn-primary">Explore more</a>
+      </div>
+      <div class="card">
+        <h3>💔 Depression</h3>
+        <p>Soft instrumental music can elevate mood gently. Combine with journaling and daylight exposure.</p>
+        <iframe width="100%" height="100" src="https://www.youtube.com/embed/mWRsgZuwf_8" title="Uplifting Music" frameborder="0" allowfullscreen></iframe>
+        <a href="./depression.html" class="btn btn-primary">Explore more</a>
+      </div>
+      <div class="card">
+        <h3>🧠 Dementia</h3>
+        <p>Old familiar tunes help trigger memory and emotion. Play songs from the person’s youth.</p>
+        <iframe width="100%" height="100" src="https://www.youtube.com/embed/RuZ1UGCrC_g" title="Memory Lane Music" frameborder="0" allowfullscreen></iframe>
+        <a href="./dementia.html" class="btn btn-primary">Explore more</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="challenge">
+    <h2 class="section-title">📅 5-Day Music Healing Challenge</h2>
+    <p>Daily music and self-care activities to improve your mental well-being.</p>
+    <ul class="day-list">
+      <li><strong>Day 1:</strong> Listen to ambient lo-fi for 10 mins while writing 3 things you're grateful for.</li>
+      <li><strong>Day 2:</strong> Play rain sounds before sleep. Practice deep breathing for 5 minutes.</li>
+      <li><strong>Day 3:</strong> Use upbeat music to dance freely for 5 minutes. Get your body moving.</li>
+      <li><strong>Day 4:</strong> Play classical music during study/work time. Eliminate distractions.</li>
+      <li><strong>Day 5:</strong> Listen to calming Indian flute while sipping warm tea.</li>
+      <!-- Add up to Day 21 as needed -->
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">🧠 Health + Music Education</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>How Music Affects the Brain</h3>
+        <p>Music triggers the release of dopamine – the feel-good hormone – and reduces cortisol, the stress hormone.</p>
+      </div>
+      <div class="card">
+        <h3>Heart Rate & Blood Pressure</h3>
+        <p>Slow-paced music helps reduce heart rate and stabilize blood pressure, promoting relaxation.</p>
+      </div>
+      <div class="card">
+        <h3>Music for Memory Support</h3>
+        <p>Patients with Alzheimer's or dementia often recall lyrics and tunes long after forgetting names.</p>
+      </div>
+      <div class="card">
+        <h3>Therapy for Autism & ADHD</h3>
+        <p>Music therapy aids emotional expression and focus in children with developmental challenges.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="emergency">
+    <h2 class="section-title">🚨 Emergency Calm-Down Panel</h2>
+    <p>If you're feeling anxious, panicked, or overwhelmed, start this emergency audio and follow the breathing guide.</p>
+    <iframe width="100%" height="100" src="https://www.youtube.com/embed/9f9mF3xOqME" title="Emergency Calm Music" frameborder="0" allowfullscreen></iframe>
+    <p><strong>Try this:</strong> Inhale for 4 seconds, hold for 7, exhale for 8. Repeat 4 times.</p>
+  </section>
+
+  <section id="caregivers">
+    <h2 class="section-title">👪 Caregiver Resources</h2>
+    <p>Support your loved ones through sound-based care. Music builds emotional connection and routine.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Tips for Dementia Care</h3>
+        <p>Play old, familiar songs in the morning to stimulate memory. Use headphones for clarity.</p>
+      </div>
+      <div class="card">
+        <h3>Support for Anxiety</h3>
+        <p>Create a quiet music corner. Let the person pick the music that calms them the most.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer style="text-align:center; padding:1rem; background:#e4e7ef;">
+    <p>&copy; 2025 HealTunes. Created for health, wellness & awareness.</p>
+  </footer>
+
+</body>
+</html>
